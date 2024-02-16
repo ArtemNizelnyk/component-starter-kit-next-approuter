@@ -10,7 +10,7 @@ import { resolveComponent } from "@/canvas/resolver";
 // export { generateStaticParams } from "@uniformdev/canvas-next-rsc";
 
 // Enable for the edge mode
-export const runtime = "edge";
+//export const runtime = "edge";
 
 export default async function Home(props: PageParameters) {
   const route = await retrieveRoute(props);
